@@ -1,0 +1,4 @@
+nats-py
+fastapi
+uvicorn
+boto3
