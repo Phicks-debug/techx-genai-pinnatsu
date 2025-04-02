@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinattsu Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Marked.js and DOMPurify -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js"></script>
+    <!-- End Added Libraries -->
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>Pinattsu Chat</h1>
+        </header>
+        <div class="chat-box" id="chat-box">
+            <div class="system-message">Welcome to Pinattsu Chat! Type a message to get started.</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="message-input" placeholder="Type your message here..." autocomplete="off">
+            <button id="send-button">Send</button>
+        </div>
+        <div class="connection-status" id="connection-status">Disconnected</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
